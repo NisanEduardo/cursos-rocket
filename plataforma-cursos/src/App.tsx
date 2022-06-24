@@ -1,7 +1,16 @@
-import "./App.css";
+import { gql, useQuery } from "@apollo/client";
+import { Header } from "./components/Header";
+import { Lesson } from "./components/Lesson";
+import { Sidebar } from "./components/Sidebar";
+import { Video } from "./components/Video";
+import { Event } from "./pages/Event";
 
-function App() {
-  return <h1></h1>;
+function App(): JSX.Element {
+  return (
+    <div>
+      <Event />
+    </div>
+  );
 }
 
 export default App;
