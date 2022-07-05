@@ -1,0 +1,12 @@
+{
+  "name": "aulas_apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Eduardo Leite",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
